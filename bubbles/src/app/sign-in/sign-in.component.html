@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+          <mat-card>
+            <mat-card-title>Bubble App Giriş</mat-card-title>
+      <mat-card-content> 
+         
+            <mat-form-field  class="w-100">
+              <input type="text" matInput [(ngModel)]="name" maxlength="10" [ngModelOptions]="{standalone: true}" placeholder="İsim (Max 10 Karakter)">
+            </mat-form-field>
+   
+ 
+            <section class="example-section">
+              <label class="example-margin">Cinsiyet:</label>
+              <mat-radio-group [(ngModel)]="Cinsiyet" [ngModelOptions]="{standalone: true}">
+                <mat-radio-button class="example-margin ml-4" value="true">
+                  Erkek
+                </mat-radio-button>
+                <mat-radio-button class="example-margin ml-4" value="false">
+                  Kadın
+                </mat-radio-button> 
+              </mat-radio-group>
+            </section>
+  
+            <span
+            (colorPickerChange)="changeColor($event)" 
+            [style.color]="color"
+            [cpPosition]="'bottom'"
+            [cpPositionOffset]="'50%'"
+            [cpPositionRelativeToArrow]="true"
+            [(colorPicker)]="color">Balon Rengini Seç :)</span
+            >
+
+          <div class="button">
+            <button mat-button class="w-100"  (click)="send()">Login</button>
+          </div> 
+      </mat-card-content>
+    </mat-card>
+        </div>
+    </div>
+</div>      
