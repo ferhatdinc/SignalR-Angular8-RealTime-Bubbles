@@ -1,5 +1,5 @@
 # BUBBLES APP
-Bu proje sosyal sorumluluk dersi kapsamında, üniversite tercihi yapacak öğrencilere yönelik yazılım mühendisliği bölümünü tanıtmak amacıyla **Ferhat Dinç** ve **Hasan Berk Ergün** tarafından oluşturulmuştur.
+Bu proje sosyal sorumluluk dersi kapsamında, üniversite tercihi yapacak öğrencilere yönelik yazılım mühendisliği bölümünü tanıtmak amacıyla oluşturulmuştur.
 
 
 # 
